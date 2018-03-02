@@ -1,0 +1,54 @@
+#video {
+	border:1px solid black;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	max-width: 100%;
+
+}
+
+
+.starfish { 
+  position: absolute;
+  top:85%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+}
+
+.starfish2 { 
+  position: absolute;
+  top:75%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+}
+
+.redstarfish { 
+  position: absolute;
+  top:120%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+}
+
+#mainstarfish img {
+  -webkit-transition: 5s ease-in-out;
+  transition: transform 10s ease-in-out;
+}
+
+#mainstarfish img:hover {
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg); 
+}
+
+.multistarfish { 
+  position: absolute;
+  top:110%;
+  left: 95%;
+  transform: translate(-50%,-50%);
+}
+
+#allbubbles img{
+  position: absolute;
+  width:50px;
+}

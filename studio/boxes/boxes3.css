@@ -1,0 +1,36 @@
+ #box1 {
+        width: 750px;
+        height: 750px;
+        background-color: #262199;
+        position: absolute;
+        left: 20%;
+        top: 10px;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }  
+    
+  #box2 {
+        width: 400px;
+        height: 400px;
+        background-color: #514CB8;
+        position: fixed;
+        left: 60%;
+        top: 70%;
+        border: dashed 5px gold;
+        -ms-transform: rotate(-20deg); /* IE 9 */
+        -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+        transform: rotate(-20deg);
+    }
+
+#box3 {
+        width: 20px;
+        height: 20px;
+        background-color: #908CE3  ;
+        position: relative;
+        top: 50px;
+        left: 100px;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+        transform: rotate(20deg);
+    } 

@@ -1,0 +1,13 @@
+ #box1 {
+        width: 600px;
+        height: 600px;
+        background-color: #262173;
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        border: dashed 5px gold;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }  
+    

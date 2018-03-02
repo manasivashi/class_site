@@ -1,0 +1,49 @@
+ #box1 {
+        width: 80px;
+        height: 80px;
+        background-color: #262199;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+        -ms-transform: rotate(75deg); /* IE 9 */
+        -webkit-transform: rotate(75deg); /* Chrome, Safari, Opera */
+        transform: rotate(75deg); /*transform: translate(-50%,-50%) perfectly centers and top 50% left 50% position fixed */
+        border: dashed 5px gold;
+    }  
+    
+
+  #box2 {
+        width: 220px;
+        height: 220px;
+        background-color: #514CB8;
+        position: fixed;
+        left: 80%;
+        top: 70%;
+        -ms-transform: rotate(-20deg); /* IE 9 */
+        -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+        transform: rotate(-20deg);
+    }
+
+#box3 {
+        width: 200px;
+        height: 200px;
+        background-color: #908CE3  ;
+        position: relative;
+        top: 100px;
+        left: 500px;
+        -ms-transform: rotate(8deg); /* IE 9 */
+        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+        transform: rotate(8deg);
+    } 
+
+#box4 {
+        width: 100px;
+        height: 100px;
+        background-color: darkblue;
+        position: fixed;
+        top: 600px;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    } 
+    

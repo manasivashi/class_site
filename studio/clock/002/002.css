@@ -1,0 +1,721 @@
+.song {
+	
+}
+
+
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+
+@-webkit-keyframes swim {
+    0% {
+        -webkit-transform: translate(0) scaleX(1);
+    }
+    0.01% {
+        -webkit-transform: translate(0) scaleX(1);
+    }
+    49.99% {
+        -webkit-transform: translate(1600px) scaleX(1);
+    }
+    50% {
+        -webkit-transform: translate(1600px) scaleX(-1);
+    }
+    50.01% {
+        -webkit-transform: translate(1600px) scaleX(-1);
+    }
+    99.99% {
+        -webkit-transform: translate(0) scaleX(-1);
+    }
+    100% {
+        -webkit-transform: translate(0) scaleX(1);
+    }
+}
+
+@-webkit-keyframes shark {
+    		from {
+                left: 100%;
+                width: 300%;
+            }
+
+            to {
+                left: -200%;
+                width: 100%;
+            }
+}
+
+
+.F1 {
+    top: 50px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 20s infinite linear;
+    -moz-animation: swim 20s infinite linear;
+    -o-animation: swim 20s infinite linear;
+    animation: swim 20s infinite linear;
+}
+
+.F2 {
+    top: 130px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 30s infinite linear;
+    -moz-animation: swim 30s infinite linear;
+    -o-animation: swim 30s infinite linear;
+    animation: swim 30s infinite linear;
+    animation-delay: 60s;
+}
+
+.F3 {
+    top: 200px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 24s infinite linear;
+    -moz-animation: swim 24s infinite linear;
+    -o-animation: swim 24s infinite linear;
+    animation: swim 24s infinite linear;
+    animation-delay: 120s;
+}
+
+.F4 {
+    top: 10px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 36s infinite linear;
+    -moz-animation: swim 36s infinite linear;
+    -o-animation: swim 36s infinite linear;
+    animation: swim 36s infinite linear;
+    animation-delay: 180s;
+}
+
+.F5 {
+    top: 700px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 40s infinite linear;
+    -moz-animation: swim 40s infinite linear;
+    -o-animation: swim 40s infinite linear;
+    animation: swim 40s infinite linear;
+    animation-delay: 240s;
+}
+
+.F6 {
+    top: 650px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 15s infinite linear;
+    -moz-animation: swim 15s infinite linear;
+    -o-animation: swim 15s infinite linear;
+    animation: swim 15s infinite linear;
+    animation-delay: 300s;
+}
+
+.F7 {
+    top: 550px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 22s infinite linear;
+    -moz-animation: swim 22s infinite linear;
+    -o-animation: swim 22s infinite linear;
+    animation: swim 22s infinite linear;
+    animation-delay: 360s;
+}
+
+.F8 {
+    top: 570px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 32s infinite linear;
+    -moz-animation: swim 32s infinite linear;
+    -o-animation: swim 32s infinite linear;
+    animation: swim 32s infinite linear;
+    animation-delay: 420s;
+}
+
+.F9 {
+    top: 250px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 42s infinite linear;
+    -moz-animation: swim 42s infinite linear;
+    -o-animation: swim 42s infinite linear;
+    animation: swim 42s infinite linear;
+    animation-delay: 480s;
+}
+
+.F10 {
+    top: 450px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 33s infinite linear;
+    -moz-animation: swim 33s infinite linear;
+    -o-animation: swim 33s infinite linear;
+    animation: swim 33s infinite linear;
+    animation-delay: 540s;
+}
+
+.F11 {
+    top: 680px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 51s infinite linear;
+    -moz-animation: swim 51s infinite linear;
+    -o-animation: swim 51s infinite linear;
+    animation: swim 51s infinite linear;
+    animation-delay: 600s;
+}
+
+.F12 {
+    top: 320px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 12s infinite linear;
+    -moz-animation: swim 12s infinite linear;
+    -o-animation: swim 12s infinite linear;
+    animation: swim 12s infinite linear;
+    animation-delay: 660s;
+}
+
+.F13 {
+    top: 350px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 16s infinite linear;
+    -moz-animation: swim 16s infinite linear;
+    -o-animation: swim 16s infinite linear;
+    animation: swim 16s infinite linear;
+    animation-delay: 720s;
+}
+
+.F14 {
+    top: 490px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 27s infinite linear;
+    -moz-animation: swim 27s infinite linear;
+    -o-animation: swim 27s infinite linear;
+    animation: swim 27s infinite linear;
+    animation-delay: 780s;
+}
+
+.F15 {
+    top: 660px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 37s infinite linear;
+    -moz-animation: swim 37s infinite linear;
+    -o-animation: swim 37s infinite linear;
+    animation: swim 37s infinite linear;
+    animation-delay: 840s;
+}
+
+.F16 {
+    top: 425px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 41s infinite linear;
+    -moz-animation: swim 41s infinite linear;
+    -o-animation: swim 41s infinite linear;
+    animation: swim 41s infinite linear;
+    animation-delay: 900s;
+}
+
+.F17 {
+    top: 345px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 50s infinite linear;
+    -moz-animation: swim 50s infinite linear;
+    -o-animation: swim 50s infinite linear;
+    animation: swim 50s infinite linear;
+    animation-delay: 960s;
+}
+
+.F18 {
+    top: 210px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 55s infinite linear;
+    -moz-animation: swim 55s infinite linear;
+    -o-animation: swim 55s infinite linear;
+    animation: swim 55s infinite linear;
+    animation-delay: 1020s;
+}
+
+.F19 {
+    top: 680px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 47s infinite linear;
+    -moz-animation: swim 47s infinite linear;
+    -o-animation: swim 47s infinite linear;
+    animation: swim 47s infinite linear;
+    animation-delay: 1080s;
+}
+
+.F20 {
+    top: 240px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 25s infinite linear;
+    -moz-animation: swim 25s infinite linear;
+    -o-animation: swim 25s infinite linear;
+    animation: swim 25s infinite linear;
+    animation-delay: 1140s;
+}
+
+.F21 {
+    top: 640px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 17s infinite linear;
+    -moz-animation: swim 17s infinite linear;
+    -o-animation: swim 17s infinite linear;
+    animation: swim 17s infinite linear;
+    animation-delay: 1200s;
+}
+
+.F22 {
+    top: 530px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 35s infinite linear;
+    -moz-animation: swim 35s infinite linear;
+    -o-animation: swim 35s infinite linear;
+    animation: swim 35s infinite linear;
+    animation-delay: 1260s;
+}
+
+.F23 {
+    top: 260px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 39s infinite linear;
+    -moz-animation: swim 39s infinite linear;
+    -o-animation: swim 39s infinite linear;
+    animation: swim 39s infinite linear;
+    animation-delay: 1320s;
+}
+
+.F24 {
+    
+    top: 380px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 54s infinite linear;
+    -moz-animation: swim 54s infinite linear;
+    -o-animation: swim 54s infinite linear;
+    animation: swim 54s infinite linear;
+    animation-delay: 1380s;
+}
+
+.F25 {
+    top: 685px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 11s infinite linear;
+    -moz-animation: swim 11s infinite linear;
+    -o-animation: swim 11s infinite linear;
+    animation: swim 11s infinite linear;
+    animation-delay: 1440s;
+}
+
+.F26 {
+    top: 335px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 20s infinite linear;
+    -moz-animation: swim 20s infinite linear;
+    -o-animation: swim 20s infinite linear;
+    animation: swim 20s infinite linear;
+    animation-delay: 1500s;
+}
+
+.F27 {
+    top: 470px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 13s infinite linear;
+    -moz-animation: swim 13s infinite linear;
+    -o-animation: swim 13s infinite linear;
+    animation: swim 13s infinite linear;
+    animation-delay: 1560s;
+}
+
+.F28 {
+    top: 255px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 21s infinite linear;
+    -moz-animation: swim 21s infinite linear;
+    -o-animation: swim 21s infinite linear;
+    animation: swim 21s infinite linear;
+    animation-delay: 1620s;
+}
+
+.F29{
+    top: 155px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 34s infinite linear;
+    -moz-animation: swim 34s infinite linear;
+    -o-animation: swim 34s infinite linear;
+    animation: swim 34s infinite linear;
+    animation-delay: 1680s;
+}
+
+.F30{
+    top: 620px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 45s infinite linear;
+    -moz-animation: swim 45s infinite linear;
+    -o-animation: swim 45s infinite linear;
+    animation: swim 45s infinite linear;
+    animation-delay: 1740s;
+}
+
+.F31{
+    top: 515px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 57s infinite linear;
+    -moz-animation: swim 57s infinite linear;
+    -o-animation: swim 57s infinite linear;
+    animation: swim 57s infinite linear;
+    animation-delay: 1800s;
+}
+
+.F32{
+    top: 350px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 23s infinite linear;
+    -moz-animation: swim 23s infinite linear;
+    -o-animation: swim 23s infinite linear;
+    animation: swim 23s infinite linear;
+    animation-delay: 1860s;
+}
+
+.F33{
+    top: 470px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 18s infinite linear;
+    -moz-animation: swim 18s infinite linear;
+    -o-animation: swim 18s infinite linear;
+    animation: swim 18s infinite linear;
+    animation-delay: 1920s;
+}
+
+.F34{
+    top: 265px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 28s infinite linear;
+    -moz-animation: swim 28s infinite linear;
+    -o-animation: swim 28s infinite linear;
+    animation: swim 28s infinite linear;
+    animation-delay: 1980s;
+}
+
+.F35{
+    top: 175px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 19s infinite linear;
+    -moz-animation: swim 19s infinite linear;
+    -o-animation: swim 19s infinite linear;
+    animation: swim 19s infinite linear;
+    animation-delay: 2040s;
+}
+
+.F36{
+    top: 535px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 38s infinite linear;
+    -moz-animation: swim 38s infinite linear;
+    -o-animation: swim 38s infinite linear;
+    animation: swim 38s infinite linear;
+    animation-delay: 2100s;
+}
+
+.F37{
+    top: 295px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 46s infinite linear;
+    -moz-animation: swim 46s infinite linear;
+    -o-animation: swim 46s infinite linear;
+    animation: swim 46s infinite linear;
+    animation-delay: 2160s;
+}
+
+.F38{
+    top: 495px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 58s infinite linear;
+    -moz-animation: swim 58s infinite linear;
+    -o-animation: swim 58s infinite linear;
+    animation: swim 58s infinite linear;
+    animation-delay: 2220s;
+}
+
+.F39{
+    top: 215px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 44s infinite linear;
+    -moz-animation: swim 44s infinite linear;
+    -o-animation: swim 44s infinite linear;
+    animation: swim 44s infinite linear;
+    animation-delay: 2280s;
+}
+
+.F40{
+    top: 190px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 26s infinite linear;
+    -moz-animation: swim 26s infinite linear;
+    -o-animation: swim 26s infinite linear;
+    animation: swim 26s infinite linear;
+    animation-delay: 2340s;
+}
+
+.F41{
+    top: 140px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 31s infinite linear;
+    -moz-animation: swim 31s infinite linear;
+    -o-animation: swim 31s infinite linear;
+    animation: swim 31s infinite linear;
+    animation-delay: 2400s;
+}
+
+.F42{
+    top: 710px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 43s infinite linear;
+    -moz-animation: swim 43s infinite linear;
+    -o-animation: swim 43s infinite linear;
+    animation: swim 43s infinite linear;
+    animation-delay: 2460s;
+}
+
+.F43{
+    top: 610px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 14s infinite linear;
+    -moz-animation: swim 14s infinite linear;
+    -o-animation: swim 14s infinite linear;
+    animation: swim 14s infinite linear;
+    animation-delay: 2520s;
+}
+
+.F44{
+    top: 510px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 48s infinite linear;
+    -moz-animation: swim 48s infinite linear;
+    -o-animation: swim 48s infinite linear;
+    animation: swim 48s infinite linear;
+    animation-delay: 2580s;
+}
+
+.F45{
+    top: 425px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 29s infinite linear;
+    -moz-animation: swim 29s infinite linear;
+    -o-animation: swim 29s infinite linear;
+    animation: swim 29s infinite linear;
+    animation-delay: 2640s;
+}
+
+.F46{
+    top: 175px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 10s infinite linear;
+    -moz-animation: swim 10s infinite linear;
+    -o-animation: swim 10s infinite linear;
+    animation: swim 10s infinite linear;
+    animation-delay: 2700s;
+}
+
+.F47{
+    top: 135px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 49s infinite linear;
+    -moz-animation: swim 49s infinite linear;
+    -o-animation: swim 49s infinite linear;
+    animation: swim 49s infinite linear;
+    animation-delay: 2760s;
+}
+
+.F48{
+    top: 685px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 56s infinite linear;
+    -moz-animation: swim 56s infinite linear;
+    -o-animation: swim 56s infinite linear;
+    animation: swim 56s infinite linear;
+    animation-delay: 2820s;
+}
+
+.F49{
+    top: 555px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 22s infinite linear;
+    -moz-animation: swim 22s infinite linear;
+    -o-animation: swim 22s infinite linear;
+    animation: swim 22s infinite linear;
+    animation-delay: 2880s;
+}
+
+.F50{
+    top: 235px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 59s infinite linear;
+    -moz-animation: swim 59s infinite linear;
+    -o-animation: swim 59s infinite linear;
+    animation: swim 59s infinite linear;
+    animation-delay: 2940s;
+}
+
+.F51{
+    top: 145px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 16s infinite linear;
+    -moz-animation: swim 16s infinite linear;
+    -o-animation: swim 16s infinite linear;
+    animation: swim 16s infinite linear;
+    animation-delay: 3000s;
+}
+
+.F52{
+    top: 485px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 52s infinite linear;
+    -moz-animation: swim 52s infinite linear;
+    -o-animation: swim 52s infinite linear;
+    animation: swim 52s infinite linear;
+    animation-delay: 3060s;
+}
+
+.F53{
+    top: 645px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 20s infinite linear;
+    -moz-animation: swim 20s infinite linear;
+    -o-animation: swim 20s infinite linear;
+    animation: swim 20s infinite linear;
+    animation-delay: 3120s;
+}
+
+.F54{
+    top: 475px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 53s infinite linear;
+    -moz-animation: swim 53s infinite linear;
+    -o-animation: swim 53s infinite linear;
+    animation: swim 53s infinite linear;
+    animation-delay: 3180s;
+}
+
+.F55{
+    top: 265px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 31s infinite linear;
+    -moz-animation: swim 31s infinite linear;
+    -o-animation: swim 31s infinite linear;
+    animation: swim 31s infinite linear;
+    animation-delay: 3240s;
+}
+
+.F56{
+    top: 70px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 17s infinite linear;
+    -moz-animation: swim 17s infinite linear;
+    -o-animation: swim 17s infinite linear;
+    animation: swim 17s infinite linear;
+    animation-delay: 3300s;
+}
+
+.F57{
+    top: 370px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 23s infinite linear;
+    -moz-animation: swim 23s infinite linear;
+    -o-animation: swim 23s infinite linear;
+    animation: swim 23s infinite linear;
+    animation-delay: 3360s;
+}
+
+.F58{
+    top: 50px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 41s infinite linear;
+    -moz-animation: swim 41s infinite linear;
+    -o-animation: swim 41s infinite linear;
+    animation: swim 41s infinite linear;
+    animation-delay: 3420s;
+}
+
+.F59{
+    top: 230px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 34s infinite linear;
+    -moz-animation: swim 34s infinite linear;
+    -o-animation: swim 34s infinite linear;
+    animation: swim 34s infinite linear;
+    animation-delay: 3480s;
+}
+
+.F60{
+    top: 130px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: swim 13s infinite linear;
+    -moz-animation: swim 13s infinite linear;
+    -o-animation: swim 13s infinite linear;
+    animation: swim 13s infinite linear;
+    animation-delay: 3540s;
+}
+
+.shark {
+	top: 10px;
+    left: 100%;
+    position:absolute;
+    -webkit-animation: shark 20s linear;
+    -moz-animation: shark 20s linear;
+    -o-animation: shark 20s linear;
+    animation: shark 20s linear;
+    animation-delay: 3600s;
+}
