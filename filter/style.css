@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:pink;
+}
+
+img{position: relative; 
+	width:23%;
+}
+
+.images {margin-top: 6%;}
+
+/*img{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:100%%;
+	height:100%;
+}*/
+
+/*h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:red;
+	background:yellow;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}*/
+
+select{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 5%;
+	left: 50%;
+	font-size:10px;
+	font-family: 'helvetica';
+	align-content: center;
+	border: 1px solid white;
+  height: 25px;
+  line-height: 12px;
+  margin: 0;
+  padding: 0px 20px;
+  background: pink none no-repeat;
+  cursor: pointer;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
