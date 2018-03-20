@@ -1,0 +1,21 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+div {
+    position: absolute;
+  
+    font-size: 12px
+        
+}
+
+div:hover{
+  font-size: 20px;
+  
+}
+
