@@ -44,7 +44,7 @@ body, html {
     /*text-align:right;*/
     font-size: 15px; 
     font-family: Helvetica, bold;
-    color: white;
+    color: white                 ;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
