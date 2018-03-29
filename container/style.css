@@ -1,21 +1,40 @@
+
 body {
 	width: 100vw;
 	height: 100vh;
 }
+
 *{
 	margin:0;
 	padding:0;
 }
 
-div {
-    position: absolute;
-  
-    font-size: 12px
-        
+select{
+	font-size:35px;
+	margin:14px;
+	color: black;
+	border-color: 2px solid white;
+}
+
+.line{
+	margin-top: 170px;
+  	border: 0 none;
+  	border-top: 5px solid white;
+  	background: none;
+  	height:0;
+} 
+
+div { text-align: center;
+	margin-top: 200px;
+	position: absolute;
+   	font-size: 8px;
+   	text-shadow: 0 0 5px pink, 0 0 10px #FFFFFF;
+   	/*text-shadow: 2px 2px 4px white;*/
+
 }
 
 div:hover{
-  font-size: 20px;
-  
+  font-size: 50px;
+  border:1px solid white;
 }
 

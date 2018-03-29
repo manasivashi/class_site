@@ -1,3 +1,21 @@
+$(function(){
+
+ $("select").on("change",function(){
+
+  $("img").hide();
+  $("."+this.value).show();
+
+ });
+
+});
+
+
+
+
+
+
+
+
 // collect all the divs
 var divs = document.getElementsByTagName('div');
 // get window width and height
@@ -15,14 +33,8 @@ for ( var i=0; i < divs.length; i++ ) {
     randomLeft = getRandomNumber(0, winWidth);
     
     // update top and left position
-    thisDiv.style.top = randomTop +"px";
-    thisDiv.style.left = randomLeft +"px";
+    thisDiv.style.top = randomTop +"0px";
+    thisDiv.style.left = randomLeft +"0px";
     
 }
 
-// function that returns a random number between a min and max
-function getRandomNumber(min, max) {
-    
-  return Math.random() * (max - min) + min;
-    
-}
