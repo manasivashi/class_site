@@ -17,6 +17,10 @@ body {
   	height:0;
 } 
 
+h1{
+	font-size: 16px;
+}
+
 .filter{
 	display: inline;
 }
@@ -32,6 +36,6 @@ div { text-align: center;
 }
 
 div:hover{
-  font-size: 50px;
+  font-size: 100px;
   border:5px solid white;
 }
