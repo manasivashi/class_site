@@ -9,13 +9,6 @@ body {
 	padding:0;
 }
 
-select{
-	font-size:35px;
-	margin:14px;
-	color: black;
-	border-color: 2px solid white;
-}
-
 .line{
 	margin-top: 170px;
   	border: 0 none;

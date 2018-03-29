@@ -1,21 +1,3 @@
-$(function(){
-
- $("select").on("change",function(){
-
-  $("img").hide();
-  $("."+this.value).show();
-
- });
-
-});
-
-
-
-
-
-
-
-
 // collect all the divs
 var divs = document.getElementsByTagName('div');
 // get window width and height
