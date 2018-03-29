@@ -20,3 +20,10 @@ for ( var i=0; i < divs.length; i++ ) {
     
 }
 
+// function that returns a random number between a min and max
+function getRandomNumber(min, max) {
+    
+  return Math.random() * (max - min) + min;
+    
+}
+
