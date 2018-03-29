@@ -10,24 +10,29 @@ body {
 }
 
 .line{
-	margin-top: 170px;
+	margin-top: 30px;
   	border: 0 none;
   	border-top: 5px solid white;
   	background: none;
   	height:0;
 } 
 
+.filter{
+	display: inline;
+	font-family: Helvetica, bold; color: white; text-transform: uppercase;
+}
+
+
 div { text-align: center;
 	margin-top: 200px;
 	position: absolute;
-   	font-size: 8px;
-   	text-shadow: 0 0 5px pink, 0 0 10px #FFFFFF;
+   	font-size: 10px;
+   	text-shadow: 0 0 5px black, 0 0 40px #FFFFFF;
    	/*text-shadow: 2px 2px 4px white;*/
 
 }
 
 div:hover{
   font-size: 50px;
-  border:1px solid white;
+  border:5px solid white;
 }
-
