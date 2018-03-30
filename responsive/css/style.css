@@ -1,0 +1,323 @@
+
+body, html {
+	background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100vw;
+}
+
+#one {
+		display: block;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+
+@media screen and (max-width: 900px) {
+	#one {
+		display: block;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 825px) {
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: block;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 750px) {
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: block;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 675px) {
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: block;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: block;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 525px) {
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: block;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 450px) {
+#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: block;
+	}
+
+	#eight {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 400px) {
+#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: block;
+	}
+}
+
+
