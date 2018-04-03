@@ -42,7 +42,7 @@ body {
 }
 
 .universe:hover{
-  font-size: 20pt;
+  font-size: 50pt;
   border:1px solid white;
   	z-index: 100;
   	background-color: black;
