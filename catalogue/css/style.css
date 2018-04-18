@@ -1,0 +1,28 @@
+html {
+  font-size: 30px;
+}
+
+body {
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+  background: white;
+}
+
+.container {
+  width: 150vw;
+  position: relative;
+  left: -30vw;
+  overflow: hidden;
+  z-index: -5;
+  color: white;
+  font-size: 100pt;
+}
+
+.marquee3k {
+  padding: 0.2rem 0;
+}
+
+.marquee3k__copy {
+  padding-right: 0.5rem;
+}
+
