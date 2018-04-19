@@ -26,3 +26,30 @@ body {
   padding-right: 0.5rem;
 }
 
+h1 {
+ /* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+
+}
