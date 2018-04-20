@@ -20,65 +20,6 @@ iframe.a{
 
 
 
-p {
-	cursor: pointer;
-	position: absolute;
-	right: 10px;
-	top: 8px;
-	display: block;
-	font:800 22px arial;
-	color: black;
-  
-}
-
-
-h1 {
-	top: 0px;
-	left: 5px; 
-	position: relative;
-	float:left;
-	clear:both;
-	font:800 72px arial;
-	z-index:3;
-	cursor: pointer;
-	color:white;
-  	text-shadow:0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-}
-
-h1:hover {
-	text-decoration: underline;
-}
-
-
-
-
-
-
-.t h1{
-	text-decoration: underline;
-}
-
-
-.a h1{
-	text-decoration: underline;
-}
-
-/*h1:hover{
-	text-decoration: underline;
-}*/
-
-
 @media (max-width: 1300px) {
   h1 {
 	font:800 52px arial;
@@ -102,3 +43,139 @@ h1:hover {
 
   
 }
+
+/*////////////////////////////////////////////////////////////////////*/
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translate(0) scaleX(1);
+    }
+    0.01% {
+        -webkit-transform: translate(0) scaleX(1);
+    }
+    49.99% {
+        -webkit-transform: translate(1600px) scaleX(1);
+    }
+    50% {
+        -webkit-transform: translate(1600px) scaleX(-1);
+    }
+    50.01% {
+        -webkit-transform: translate(1600px) scaleX(-1);
+    }
+    99.99% {
+        -webkit-transform: translate(0) scaleX(-1);
+    }
+    100% {
+        -webkit-transform: translate(0) scaleX(1);
+    }
+}
+
+.F1 {
+    top: 50px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 20s infinite linear;
+    -moz-animation: float 20s infinite linear;
+    -o-animation: float 20s infinite linear;
+    animation: float 20s infinite linear;
+}
+
+.F2 {
+    top: 130px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 30s infinite linear;
+    -moz-animation: float 30s infinite linear;
+    -o-animation: float 30s infinite linear;
+    animation: float 30s infinite linear;
+
+}
+
+.F3 {
+    top: 200px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 24s infinite linear;
+    -moz-animation: float 24s infinite linear;
+    -o-animation: float 24s infinite linear;
+    animation: float 24s infinite linear;
+
+}
+
+.F4 {
+    top: 10px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 36s infinite linear;
+    -moz-animation: float 36s infinite linear;
+    -o-animation: float 36s infinite linear;
+    animation: float 36s infinite linear;
+ 
+}
+
+.F5 {
+    top: 700px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 40s infinite linear;
+    -moz-animation: float 40s infinite linear;
+    -o-animation: float 40s infinite linear;
+    animation: float 40s infinite linear;
+    
+}
+
+.F6 {
+    top: 650px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 15s infinite linear;
+    -moz-animation: float 15s infinite linear;
+    -o-animation: float 15s infinite linear;
+    animation: float 15s infinite linear;
+    
+}
+
+.F7 {
+    top: 550px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 22s infinite linear;
+    -moz-animation: float 22s infinite linear;
+    -o-animation: float 22s infinite linear;
+    animation: float 22s infinite linear;
+    
+}
+
+.F8 {
+    top: 570px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 32s infinite linear;
+    -moz-animation: float 32s infinite linear;
+    -o-animation: float 32s infinite linear;
+    animation: float 32s infinite linear;
+    
+}
+
+.F9 {
+    top: 250px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 42s infinite linear;
+    -moz-animation: float 42s infinite linear;
+    -o-animation: float 42s infinite linear;
+    animation: float 42s infinite linear;
+}
+
+.F10 {
+    top: 450px;
+    left: -150px;
+    position:absolute;
+    -webkit-animation: float 33s infinite linear;
+    -moz-animation: float 33s infinite linear;
+    -o-animation: float 33s infinite linear;
+    animation: float 33s infinite linear;
+    
+}
+
+
