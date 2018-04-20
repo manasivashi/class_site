@@ -1,5 +1,6 @@
 body {
 	background-color: black;
+	text-align: center;
 }
 
 .background {
@@ -20,7 +21,7 @@ textarea {
 	color: red;
 	position: relative;
 	resize: none;
-	margin: 15px;
+	margin: 10px;
 	width: 150px;
 	height: 150px;
 	border:1px solid red;
@@ -28,5 +29,6 @@ textarea {
 	font-size: 14pt;
 	text-transform: uppercase;
     padding: 10px;
+    display: inline-flex;
 }
 

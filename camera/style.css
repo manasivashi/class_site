@@ -1,0 +1,12 @@
+body{background:#242424 url('https://unsplash.it/1000/1100/?random')no-repeat center center; height:150vh;
+background-size:cover;}
+video
+{
+  width: 100%;
+  opacity:.65;
+  min-height:100vh;
+  margin:0 auto;
+  position:fixed;
+  background: transparent;
+  border-radius: 5px;
+}

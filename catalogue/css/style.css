@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  padding: 5px;
   font-weight: bold;
   font-family: 'Helvetica', sans-serif;
   background: white;
@@ -26,8 +27,9 @@ body {
   padding-right: 0.5rem;
 }
 
-h1 {
- /* unvisited link */
+.imagejournal{}
+
+    /* unvisited link */
 a:link {
     color: red;
     text-decoration: none;
@@ -52,4 +54,37 @@ a:active {
 }
 
 
+.info a p {display:none;}
+.info a:hover p {display:inline-block;}
+
+
+p{
+  margin-left: 50%;
+  font-family: helvetica, bold;
+  font-size: 10pt;
+  color: black;
+  position: fixed;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
