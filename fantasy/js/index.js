@@ -1,6 +1,8 @@
 $(function()
 {
-  var video = $('body > video')[0];
+  var video = $('body > video')[0],
+	  cvs = document.createElement('canvas'),
+	  ctx = cvs.getContext('2d');
   
   navigator.getMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia);
   
@@ -30,4 +32,6 @@ $(function()
       streaming = !0;
     }
   }, !1);
+
+
 });
