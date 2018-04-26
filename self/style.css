@@ -1,0 +1,31 @@
+body {
+ letter-spacing: 0.01rem;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ text-rendering: optimizeLegibility;
+ background-color: white;
+ font-weight: 1;
+ color: white;
+ overflow-x: none;
+}
+
+video {
+	position: absolute;
+}
+
+
+/*.text {
+font-family: 'Helvetica', bold;
+ margin: 0;
+ padding: 2rem 6%;
+ list-style: none;
+ font-size: 200px;
+ line-height: 100%;
+ letter-spacing: 5px;
+ text-transform: uppercase;
+ white-space: nowrap;
+}*/
+
+/*.text li {
+ margin: 2rem 0;
+}*/
