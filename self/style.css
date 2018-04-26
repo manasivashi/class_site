@@ -9,22 +9,54 @@ body {
  overflow-x: none;
 }
 
-video {
-	position: absolute;
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
 }
 
+iframe {
+	-webkit-filter:  saturate(100%) contrast(100%) /*invert(100%)*/; /* Safari 6.0 - 9.0 */
+    filter: saturate(100%) contrast(100%) /*invert(100%)*/;
+}
 
-/*.text {
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+.text {
 font-family: 'Helvetica', bold;
  margin: 0;
  padding: 2rem 6%;
  list-style: none;
- font-size: 200px;
+ font-size: 20px;
  line-height: 100%;
  letter-spacing: 5px;
  text-transform: uppercase;
  white-space: nowrap;
-}*/
+}
 
 /*.text li {
  margin: 2rem 0;
