@@ -42,5 +42,5 @@
 
 iframe {
     filter: grayscale(100%);
-    filter: contrast(300%);
+    /*filter: contrast(300%);*/
 }
