@@ -133,4 +133,7 @@
     
 }
 
+iframe {
+    filter: contrast(175%) brightness(3%);
+}
 
