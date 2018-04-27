@@ -44,3 +44,8 @@ iframe {
     filter: grayscale(100%);
     /*filter: contrast(300%);*/
 }
+
+iframe.saturate {
+  filter: url("#saturate");
+  -webkit-filter: url("#saturate");
+}
