@@ -1,10 +1,15 @@
 body {
     filter: grayscale(100%);
+       /* background: url(assets/frame.png) no-repeat fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
 }
 
 
 .swing {
-    margin-top: 30px;
     animation: swing ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
     float:left;
@@ -18,7 +23,7 @@ body {
     width: 20px; height: 20px;  
     top: -10px; left: 50%;
     z-index: 0;
-
+  
     transform: rotate(45deg);
 }
 /* nail */
@@ -31,18 +36,35 @@ body {
 }
  
 @keyframes swing {
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
+    0% { transform: rotate(-2deg); }
+    100% { transform: rotate(2deg); }
 }
 
-.frame {
+/*.frame {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100%;
+    width: 100vw;
     z-index:1;
     height: 100vh;
+}*/
+
+.spinner {
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  transform-style: preserve-3d;
+  text-align:center;
+}
+@keyframes spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
 }
 
 iframe {
