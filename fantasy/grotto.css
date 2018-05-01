@@ -2,6 +2,7 @@
 /*////////////////////////////////////////////////////////////////////*/
 body {
     background: url(assets/grotto.png) no-repeat fixed;
+    z-index: 1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
