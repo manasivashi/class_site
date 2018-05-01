@@ -1,6 +1,10 @@
 
 /*////////////////////////////////////////////////////////////////////*/
 body {
+
+}
+
+.background {    
     background: url(assets/grotto.png) no-repeat fixed;
     z-index: 1;
     -webkit-background-size: cover;
@@ -8,9 +12,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
+
 }
-
-
 
 @-webkit-keyframes float {
     0% {
