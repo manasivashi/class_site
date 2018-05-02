@@ -93,59 +93,16 @@ body {
     
 }
 
-.F6 {
-    top: 650px;
+
+.F6{ 
+    top: 10px;
     left: -150px;
     position:absolute;
-    -webkit-animation: float 15s infinite linear;
-    -moz-animation: float 15s infinite linear;
-    -o-animation: float 15s infinite linear;
-    animation: float 15s infinite linear;
-    
-}
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
-.F7 {
-    top: 550px;
-    left: -150px;
-    position:absolute;
-    -webkit-animation: float 22s infinite linear;
-    -moz-animation: float 22s infinite linear;
-    -o-animation: float 22s infinite linear;
-    animation: float 22s infinite linear;
-    
 }
-
-.F8 {
-    top: 570px;
-    left: -150px;
-    position:absolute;
-    -webkit-animation: float 32s infinite linear;
-    -moz-animation: float 32s infinite linear;
-    -o-animation: float 32s infinite linear;
-    animation: float 32s infinite linear;
-    
-}
-
-.F9 {
-    top: 250px;
-    left: -150px;
-    position:absolute;
-    -webkit-animation: float 42s infinite linear;
-    -moz-animation: float 42s infinite linear;
-    -o-animation: float 42s infinite linear;
-    animation: float 42s infinite linear;
-}
-
-.F10 {
-    top: 450px;
-    left: -150px;
-    position:absolute;
-    -webkit-animation: float 33s infinite linear;
-    -moz-animation: float 33s infinite linear;
-    -o-animation: float 33s infinite linear;
-    animation: float 33s infinite linear;
-    
-}
-
 
 
