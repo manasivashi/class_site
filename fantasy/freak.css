@@ -49,7 +49,6 @@ iframe {
     -webkit-animation: rotate-vert-center 0.5s linear infinite ;
             animation: rotate-vert-center 0.5s linear infinite ;
             display: block;
-            margin-left: 80%;
 }
 
 @-webkit-keyframes rotate-vert-center {

@@ -6,6 +6,7 @@ body {
 
 .background {    
     background: url(assets/grotto.png) no-repeat fixed;
+    background-position: 50% 60%;
     z-index: 1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
