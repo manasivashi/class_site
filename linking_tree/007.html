@@ -7,55 +7,34 @@
 
 
 p {color: black; font-size: 14; font-family: helvetica; font-weight: bold; text-align: center;}
-/* unvisited link */
 								a:link {
-								    color: black;
+								    color: red;
 								    text-decoration: none;
 								}
 
 								/* visited link */
 								a:visited {
-								    color: black;
+								    color: red;
 								    text-decoration: none;
 								}
 
 								/* mouse over link */
-							
-
-								/* selected link */
-								a:active {
-								    color: black;
+								a:hover {
+								    color: red;
 								    text-decoration: none;
 								}
 
-#hover{
-    -webkit-transition:opacity 0.2s ease;
-    -moz-transition:opacity 0.2s ease;
-    -o-transition:opacity 0.2s ease;
-}
-
-#hover:hover{
-    // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
-    background-color:rgba(100,100,100,0); 
-    opacity:0;
-}
-
-a {
-  background-color: none;
-  transition: background-color .5s;
-}
-
-a:hover {
-  background-color: black; text-decoration-color: white;
-}
-
-p {color: black; font-size: 14; font-family: helvetica; font-weight: bold; text-align: center;}
+								/* selected link */
+								a:active {
+								    color: red;
+								    text-decoration: none;
+								}
 
 	</style>
 </head>
 <body>
 
-<p> It is said that evil is the <div id="hover"><a href="009.html">absence</a></div> or <div id="hover2"><a href="011.html">opposite</a></div> of good.</p>
+<p> It is said that evil is the <a href="009.html">absence</a> or <a href="011.html">opposite</a> of good.</p>
 
 
 
