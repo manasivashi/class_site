@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picker</title>
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+<script>
+var event1 = ["dramatic","substantial","mad","sexual","dangerous","sorry","afraid","realistic","alive","desperate","realistic","critical", "suspicious", ];
+
+function getItem(){
+    document.getElementById("event_text").innerHTML = event1[Math.floor(Math.random() * event1.length)];
+}
+</script>
+    
+<script>
+function random_image() {
+  var image1 = "image/001.jpg";
+  var image2 = "image/002.jpg";
+  var image3 = "image/003.jpg";
+    var image4 = "image/004.jpg";
+    var image5 = "image/005.jpg";
+    var image6 = "image/006.jpg";
+    var image7 = "image/007.jpg";
+    var image8 = "image/008.jpg";
+    var image9 = "image/009.jpg";
+    var image10 = "image/010.jpg";
+    var image11 = "image/011.jpg";
+    var image12 = "image/012.jpg";
+    var image13 = "image/013.jpg";
+    var image14 = "image/014.jpg";
+    var image15 = "image/015.jpg";
+    var image16 = "image/016.jpg";
+    var image17 = "image/017.jpg";
+    var image18 = "image/018.jpg";
+    var image19 = "image/019.jpg";
+    var image20 = "image/020.jpg";
+    var image21 = "image/021.jpg";
+    var image22 = "image/022.jpg";
+    var image23 = "image/023.jpg";
+    var image24 = "image/024.jpg";
+    var image25 = "image/025.jpg";
+  var array_of_images = new Array ();
+  console.log(array_of_images);
+  array_of_images.push(image1);
+  array_of_images.push(image2);
+  array_of_images.push(image3);
+    array_of_images.push(image4);
+    array_of_images.push(image5);
+    array_of_images.push(image6);
+    array_of_images.push(image7);
+    array_of_images.push(image8);
+    array_of_images.push(image9);
+    array_of_images.push(image10);
+    array_of_images.push(image11);
+    array_of_images.push(image12);
+    array_of_images.push(image13);
+    array_of_images.push(image14);
+    array_of_images.push(image15);
+    array_of_images.push(image16);
+    array_of_images.push(image17);
+    array_of_images.push(image18);
+    array_of_images.push(image19);
+    array_of_images.push(image20);
+    array_of_images.push(image21);
+    array_of_images.push(image22);
+    array_of_images.push(image23);
+    array_of_images.push(image24);
+    array_of_images.push(image25);
+
+  var choice = Math.floor(Math.random() * array_of_images.length);
+  document.getElementById("container").innerHTML = "<img src='" 
+      + array_of_images[choice] + "'></img>";
+}
+</script>
+</head>
+<body>
+
+    <div id="left">
+       <input id="event" type="button" onclick="getItem()" value="Word"/>
+	   <p id="event_text"></p>
+    </div>
+    <div id="right">
+        <input id="place" type="button" onclick="random_image()" value="Image"/>
+        <div id="container"></div>
+    </div>
+    
+    
+
+
+
+
+</body>
+</html>

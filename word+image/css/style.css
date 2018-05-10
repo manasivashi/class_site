@@ -1,0 +1,142 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    font-family: Helvetica, bold;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    
+}
+
+
+img {
+	position: absolute;
+    width: 100%;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+}
+input {
+    outline: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+  	color:white;
+	background-color: black;
+    z-index: 1;
+	}
+
+input::before {
+		background-color:red;
+		content:"";
+		display:block;
+		position:absolute;
+		width:100%;
+		height:100%;
+		padding-left:2px;
+		padding-right:2px;
+		padding-bottom:4px;
+		left:-2px;
+		top:5px;
+		z-index:-1;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		-webkit-box-shadow: 0px 1px 0px #fff;
+		-moz-box-shadow: 0px 1px 0px #fff;
+		-o-box-shadow: 0px 1px 0px #fff;
+		box-shadow: 0px 1px 0px #fff;
+	}
+
+
+
+
+input:active {
+
+		color:white;
+		text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+		background:rgb(44,160,202);
+		-webkit-box-shadow: inset 0px 1px 0px red, inset 0px -1px 0px #156785;
+		-moz-box-shadow: inset 0px 1px 0px red, inset 0px -1px 0px #156785;
+		-o-box-shadow: inset 0px 1px 0px red, inset 0px -1px 0px #156785;
+		box-shadow: inset 0px 1px 0px red, inset 0px -1px 0px #156785;
+		top:5px;
+}
+
+
+input::before {
+		margin-top:-2px;
+	}
+
+
+input:active {
+		margin-top:-2px;
+	}
+
+#left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+
+#event {
+    position: relative;
+    margin-top: 50px;
+    left: 90%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+#place {
+  position: relative;
+  left: 10%;
+    margin-top: 50px;
+  transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    
+}
+
+
+#event_text {
+   position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+#place_text {
+    top: 100px;
+    position: relative;
+}
+
+
+
+#center {
+    position: fixed;
+      left: 50%;
+  transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    color: red;
+}

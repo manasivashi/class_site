@@ -1,29 +1,19 @@
-body {
- letter-spacing: 0.01rem;
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
- text-rendering: optimizeLegibility;
- background-color: black;
- font-weight: 1;
- color: white;
- overflow-x: none;
+body{
+	background-color: black;
+	font-family: "Helvetica Neue", bold;
+	color: white;
+	font-size: 8pt;
 }
 
-* { box-sizing: border-box; }
+.page {
+		background: #000;
+    	width: 200px;
+    	height: 200px;
+    	border: 1px solid #DFCAD2;
+    	padding: 5px;
+    	
+	}
 
+.page:hover {
 
-.text {
-font-family: 'Helvetica', bold;
- margin: 0;
- padding: 2rem 6%;
- list-style: none;
- font-size: 20px;
- line-height: 100%;
- letter-spacing: 5px;
- text-transform: uppercase;
- white-space: nowrap;
 }
-
-/*.text li {
- margin: 2rem 0;
-}*/

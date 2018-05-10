@@ -1,65 +1,165 @@
 body {
-    background-color: #E45944;
+  background-color: #f46349;
 }
 
+/*_______________________________________*/
 
-/*
-.orange {
+div.ball {
+  width: 200px;
+  height: 200px;
+  background: #e8e8e8;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  top: 400px;
+  left: 420px;
+  position: fixed;
+}
+
+div.ballshadow {
+  width: 200px;
+  height: 200px;
+  background: #b3b3b3;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  top: 405px;
+  left: 415px;
+  position: fixed;
+}
+
+/*_______________________________________*/
+
+div.computer {
+  width: 220px;
+  height: 280px;
+  background: #d3c9b3;
+  border-radius: 10px;
+  top: 220px;
+  left: 630px;
+  position: fixed;
+} 
+
+div.screen {
+  width: 150px;
+  height: 120px;
+  background: #262626;
+  border-radius: 30px;
+  top: 250px;
+  left: 670px;
+  position: fixed;
+}
+
+div.disc {
+  width: 100px;
+  height: 8px;
+  background: #474747;
+  border-radius: 2px;
+  top: 400px;
+  left: 705px;
+  position: fixed;
+}
+
+/*_______________________________________*/
+
+div.keyboard {
+  border-bottom: 50px solid #d3c9b3;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 250px;
+  top: 490px;
+  left: 607px;
+  position: fixed;
+}
+
+/*_______________________________________*/
+
+div.orange1 {
   width: 100px;
   height: 100px;
-  background: orange;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
+  background: #f49542;
   border-radius: 50px;
-  transform: translate(-50%,-50%);
+  top: 520px;
+  left: 550px;
+  position: fixed;
 }
 
-.orange2 {
+div.leaf1 {
+  width: 50px;
+  height: 25px;
+  background: #82c655;
+  border-radius: 100px / 50px;
+  top: 505px;
+  left: 550px;
+  position: fixed;
+  transform: rotate(20deg);
+}
+
+/*________________________________________*/
+
+div.orange2 {
   width: 100px;
   height: 100px;
-  background: orange;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
+  background: #f49542;
   border-radius: 50px;
-}*/
-
-#computer {
-  width: 300px;
-  height: 400px;
-  background: #A7A28F;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
+  top: 125px;
+  left: 730px;
+  position: fixed;
 }
 
-.screen {
-   width: 220px;
-  height: 175px;
-  background: black;
-  top:33%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
-    border-radius: 20px;
-    padding: 20px; 
+div.leaf2 {
+  width: 50px;
+  height: 25px;
+  background: #82c655;
+  border-radius: 100px / 50px;
+  top: 115px;
+  left: 730px;
+  position: fixed;
+  transform: rotate(20deg);
 }
 
-/*#bottle {
-    width: 50px;
-    height: 50px;
-    background: yellow;
-    margin-left: 220px;
-    margin-top: 50px;
-    border:2px solid black;
+/*_______________________________________*/
+
+div.bottle {
+  width: 90px;
+  height: 180px;
+  background: #ff8e72;
+  border-radius: 30px;
+  top: 380px;
+  left: 900px;
+  position: fixed;
+  opacity: 0.95;
 }
 
-.ball {
-  width: 100px;
-  height: 100px;
-  background: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+div.bottlebottom {
+  width: 90px;
+  height: 50px;
+  background: #ff8e72;
+  border-radius: 5px;
+  top: 530px;
+  left: 900px;
+  position: fixed;
+  opacity: 0.95;
 }
-*/
+
+div.bottletop {
+  width: 50px;
+  height: 50px;
+  background: #ff8e72;
+  border-radius: 10px;
+  top: 340px;
+  left: 918px;
+  position: fixed;
+  opacity: 0.85;
+}
+
+div.cork {
+  width: 35px;
+  height: 40px;
+  background: #b75942;
+  border-radius: 10px;
+  top: 325px;
+  left: 925px;
+  position: fixed;
+}
+
+
